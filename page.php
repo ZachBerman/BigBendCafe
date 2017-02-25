@@ -78,4 +78,4 @@
 </section>
 <!-- /.Menu Section --> 
 
-<?php wp_footer(); ?>
+<?php get_footer(); ?>
