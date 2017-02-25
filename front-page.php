@@ -92,7 +92,7 @@ Template Name: Home Page
               <p><img alt="Contact Us" class=
                         "img-responsive center-block" src=
                         "<?= get_template_directory_uri(); ?>/img/border.svg" /> </p>
-             <?= do_shortcode("[instagram-feed]"); ?>
+             <?= do_shortcode("<?php the_field('instagram_shortcode'); ?>"); ?>
             </div>
           </div>
           <!-- /.Call-To-Action Content Area --> 
