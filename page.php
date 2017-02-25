@@ -31,7 +31,7 @@
       <div class="col-lg-12 text-center">
         <div class="">
           <h2 class="section-heading"><?php the_title( '' ); ?></h2>
-          <h3 class="section-subheading">Just don't try to order dinner</h3>
+          <h3 class="section-subheading"><?php the_field('subheading'); ?></h3>
         </div>
       </div>
     </div>
