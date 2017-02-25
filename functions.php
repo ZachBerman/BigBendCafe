@@ -11,9 +11,6 @@ function load_script_css() {
   wp_register_style( 'bootstrapCss', get_template_directory_uri() . '/css/bootstrap.min.css' );
   wp_enqueue_style('bootstrapCss');
 
-  wp_register_style( 'magnificCss', get_template_directory_uri() . '/magnific-popup/magnific-popup.css' );
-  wp_enqueue_style('magnificCss');
-
   wp_register_style( 'animateCss', get_template_directory_uri() . '/animate-css/animate.min.css' );
   wp_enqueue_style('animateCss');
 
