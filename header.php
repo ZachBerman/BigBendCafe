@@ -23,9 +23,9 @@
     <style type = "text/css">
         <?php if(has_post_thumbnail()): ?>
             #menubg{
-                background: url('<?= the_post_thumbnail_url(); ?>') no-repeat center center scroll;
+                background: url('<?php the_post_thumbnail(); ?>') no-repeat center center scroll;
             }
-        <?php endif; ?>
+        <?php endif; ?>  
     </style>
     
   </head>
