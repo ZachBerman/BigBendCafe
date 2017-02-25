@@ -92,7 +92,7 @@ Template Name: Home Page
               <p><img alt="Contact Us" class=
                         "img-responsive center-block" src=
                         "<?= get_template_directory_uri(); ?>/img/border.svg" /> </p>
-             <?= do_shortcode("[instashow effect='fade']"); ?>
+             <?= do_shortcode("[instashow columns='3']"); ?>
             </div>
           </div>
           <!-- /.Call-To-Action Content Area --> 
