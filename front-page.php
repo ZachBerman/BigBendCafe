@@ -96,9 +96,11 @@ Template Name: Home Page
                         "img-responsive center-block" src=
                         "<?= get_template_directory_uri(); ?>/img/border.svg" /> </p>
              <?= do_shortcode("[instashow columns='3']"); ?>
-            </div>
-            <div class="text-center">
-            <a href="https://www.instagram.com/apptesting2212/?ref=badge"/>Follow Us!</a>
+             <br>
+             <br>
+             <div class="text-center">
+              <a href="https://www.instagram.com/apptesting2212/?ref=badge"><button class="btn btn-primary text-center"><i class="icon-camera-retro"></i> Follow us on Instagram!</button></a>
+             </div>
             </div>
           </div>
           <!-- /.Call-To-Action Content Area --> 
