@@ -6,6 +6,10 @@ Template Name: Home Page
 
 <?php get_header(); ?>
 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjh-JsUKjcqJEHv0bGZSvuEj4LfzzE0K8&callback=initMap"
+    async defer></script>
+    <style type="text/css">       #map-canvas {           width:    100%;     height:   300px;          }       </style>
+
     <!-- Header -->
     <header id="homev2">
       <div class="container"> 
@@ -94,6 +98,9 @@ Template Name: Home Page
                         "<?= get_template_directory_uri(); ?>/img/border.svg" /> </p>
              <?= do_shortcode("[instashow columns='3']"); ?>
             </div>
+            <div class="text-center">
+            <a href="https://www.instagram.com/apptesting2212/?ref=badge"/>Follow Us!</a>
+            </div>
           </div>
           <!-- /.Call-To-Action Content Area --> 
         </div>
@@ -135,8 +142,35 @@ Template Name: Home Page
       <div id="iframe">
         <div class="container-fluid">
           <div class="row"> 
-            <div id="map"><!-- </div> -->
-              <?= do_shortcode("[huge_it_maps id='2']"); ?>
+            <div id="map-canvas"></div><!-- #map-canvas -->
+              <script type="text/javascript">
+google.maps.event.addDomListener( window, 'load', gmaps_results_initialize );
+function gmaps_results_initialize() {
+
+  if ( null === document.getElementById( 'map-canvas' ) ) {
+    return;
+  }
+
+  var map, marker;
+
+  map = new google.maps.Map( document.getElementById( 'map-canvas' ), {
+
+    zoom:           17,
+    scrollwheel:    false,
+    center:         new google.maps.LatLng( 51.301430, -116.967340 ),
+
+  });
+
+  // Place a marker in Atlanta
+  marker = new google.maps.Marker({  
+
+    position: new google.maps.LatLng( 51.301430, -116.967340),
+    map:      map
+
+  });
+
+}
+</script>
             </div>
           </div>
         </div>
