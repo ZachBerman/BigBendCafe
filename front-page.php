@@ -6,8 +6,7 @@ Template Name: Home Page
 
 <?php get_header(); ?>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjh-JsUKjcqJEHv0bGZSvuEj4LfzzE0K8&callback=initMap"
-    async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjh-JsUKjcqJEHv0bGZSvuEj4LfzzE0K8"></script>
     <style type="text/css">       #map-canvas {           width:    100%;     height:   300px;          }       </style>
 
     <!-- Header -->
