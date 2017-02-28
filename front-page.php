@@ -55,7 +55,7 @@ Template Name: Home Page
           <div class="border">
             <div class="row">
               <div class="col-lg-12 text-center">
-                <p class="mrgn20-btm"><img alt="border" class="img-responsive center-block" height="26" src="<?= get_template_directory_uri(); ?>/img/border.svg" /></p>
+                <p class="mrgn-neg20"><img alt="border" class="img-responsive center-block" height="26" src="<?= get_template_directory_uri(); ?>/img/border.svg" /></p>
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ Template Name: Home Page
             <div class="text-center">
               <h2 class="section-heading"><?php the_field('home_page_section-2_header'); ?></h2>
               <h3 class="section-subheading"><?php the_field('home_page_section-2_subheader'); ?></h3>
-              <p class="mrgn20-btm"><img alt="Contact Us" class=
+              <p><img alt="Contact Us" class=
                         "img-responsive center-block" src=
                         "<?= get_template_directory_uri(); ?>/img/border.svg" /> </p>
              <?= do_shortcode("[instashow columns='3']"); ?>
@@ -116,7 +116,7 @@ Template Name: Home Page
             <div class="">
               <h2 class="section-heading"><?php the_field('home_page_section-3_header'); ?></h2>
               <h3 class="section-subheading"><?php the_field('home_page_section-3_subheader'); ?></h3>
-              <p class="mrgn20-btm"><img alt="Contact Us" class=
+              <p><img alt="Contact Us" class=
                         "img-responsive center-block" src=
                         "<?= get_template_directory_uri(); ?>/img/border.svg" /> </p>
               <div class="col-lg-6">
@@ -145,33 +145,33 @@ Template Name: Home Page
           <div class="row"> 
             <div id="map-canvas"></div><!-- #map-canvas -->
               <script type="text/javascript">
-google.maps.event.addDomListener( window, 'load', gmaps_results_initialize );
-function gmaps_results_initialize() {
+                google.maps.event.addDomListener( window, 'load', gmaps_results_initialize );
+                function gmaps_results_initialize() {
 
-  if ( null === document.getElementById( 'map-canvas' ) ) {
-    return;
-  }
+                  if ( null === document.getElementById( 'map-canvas' ) ) {
+                    return;
+                  }
 
-  var map, marker;
+                  var map, marker;
 
-  map = new google.maps.Map( document.getElementById( 'map-canvas' ), {
+                  map = new google.maps.Map( document.getElementById( 'map-canvas' ), {
 
-    zoom:           17,
-    scrollwheel:    false,
-    center:         new google.maps.LatLng( 51.301430, -116.967340 ),
+                    zoom:           17,
+                    scrollwheel:    false,
+                    center:         new google.maps.LatLng( 51.301430, -116.967340 ),
 
-  });
+                  });
 
-  // Place a marker in Atlanta
-  marker = new google.maps.Marker({  
+                  // Marker
+                  marker = new google.maps.Marker({  
 
-    position: new google.maps.LatLng( 51.301430, -116.967340),
-    map:      map
+                    position: new google.maps.LatLng( 51.301430, -116.967340),
+                    map:      map
 
-  });
+                  });
 
-}
-</script>
+                }
+                </script>
             </div>
           </div>
         </div>
