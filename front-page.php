@@ -94,7 +94,8 @@ Template Name: Home Page
               <p><img alt="Contact Us" class=
                         "img-responsive center-block" src=
                         "<?= get_template_directory_uri(); ?>/img/border.svg" /> </p>
-             <?= do_shortcode("[instashow columns='3']"); ?>
+             <span class="hidden-xs"><?= do_shortcode("[instashow columns='3']"); ?></span>
+             <span class="visible-xs"><?= do_shortcode("[instashow columns='2']"); ?></span>
              <br>
              <br>
              <div class="text-center">
