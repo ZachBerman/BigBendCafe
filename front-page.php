@@ -44,10 +44,8 @@ Template Name: Home Page
         <!-- Heading and Subheading -->
         <div class="row">
           <div class="col-lg-12 text-center">
-            <div class="">
               <h2 class="section-heading"><?php the_field('home_page_section-1_header'); ?></h2>
               <h3 class="section-subheading"><?php the_field('home_page_section-1_subheader'); ?></h3>
-            </div>
           </div>
         </div>
         <!-- /.Heading and Subheading --> 
@@ -57,7 +55,7 @@ Template Name: Home Page
           <div class="border">
             <div class="row">
               <div class="col-lg-12 text-center">
-                <p class="mrgn30-btm"><img alt="border" class="img-responsive center-block" height="26" src="<?= get_template_directory_uri(); ?>/img/border.svg" /></p>
+                <p class="mrgn20-btm"><img alt="border" class="img-responsive center-block" height="26" src="<?= get_template_directory_uri(); ?>/img/border.svg" /></p>
               </div>
             </div>
           </div>
@@ -91,9 +89,9 @@ Template Name: Home Page
           <!-- Call-To-Action Content Area -->
           <div class="row">
             <div class="text-center">
-              <h2 class="text-uppercase section-heading"><?php the_field('home_page_section-2_header'); ?></h2>
+              <h2 class="section-heading"><?php the_field('home_page_section-2_header'); ?></h2>
               <h3 class="section-subheading"><?php the_field('home_page_section-2_subheader'); ?></h3>
-              <p><img alt="Contact Us" class=
+              <p class="mrgn20-btm"><img alt="Contact Us" class=
                         "img-responsive center-block" src=
                         "<?= get_template_directory_uri(); ?>/img/border.svg" /> </p>
              <?= do_shortcode("[instashow columns='3']"); ?>
@@ -116,9 +114,9 @@ Template Name: Home Page
         <div class="row">
           <div class="col-lg-12 text-center mrgn20-btm">
             <div class="">
-              <h2 class="text-uppercase section-heading"><?php the_field('home_page_section-3_header'); ?></h2>
+              <h2 class="section-heading"><?php the_field('home_page_section-3_header'); ?></h2>
               <h3 class="section-subheading"><?php the_field('home_page_section-3_subheader'); ?></h3>
-              <p><img alt="Contact Us" class=
+              <p class="mrgn20-btm"><img alt="Contact Us" class=
                         "img-responsive center-block" src=
                         "<?= get_template_directory_uri(); ?>/img/border.svg" /> </p>
               <div class="col-lg-6">
