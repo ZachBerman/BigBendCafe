@@ -20,13 +20,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <style type = "text/css">
+    <!--<style type = "text/css">
         <?php if(has_post_thumbnail()): ?>
             #menubg{
                 background: url('<?= the_post_thumbnail_url(); ?>') no-repeat center center scroll;
             }
         <?php endif; ?>  
-    </style>
+    </style>-->
     
   </head>
 

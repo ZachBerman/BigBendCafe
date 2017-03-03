@@ -1,5 +1,13 @@
 <?php get_header(); ?>
 
+    <style type = "text/css">
+        <?php if(has_post_thumbnail()): ?>
+            #menubg{
+                background: url('<?= the_post_thumbnail_url(); ?>') no-repeat center center scroll;
+            }
+        <?php endif; ?>  
+    </style>
+
 <!-- Header Small -->
 <header id="menubg">
   <div class="container">  
