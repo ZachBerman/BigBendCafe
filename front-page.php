@@ -8,7 +8,7 @@ Template Name: Home Page
 
     <style type = "text/css">
         <?php if(has_post_thumbnail()): ?>
-            #menubg{
+            #homev2{
                 background: url('<?= the_post_thumbnail_url(); ?>') no-repeat center center scroll;
             }
         <?php endif; ?>  
