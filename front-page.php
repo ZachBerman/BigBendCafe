@@ -11,6 +11,11 @@ Template Name: Home Page
             #homev2{
                 background: url('<?= the_post_thumbnail_url(); ?>');
             }
+            @media (min-width:768px) {
+            #homev2{
+                background: url('<?= the_post_thumbnail_url(); ?>');background-attachment: fixed;
+                }
+            }
         <?php endif; ?>  
     </style>
 
