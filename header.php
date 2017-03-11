@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="google-site-verification" content="WvISFB-5u1FfY5FDDf_XfpIEqoOIdty7fdo6W3cG4cI" />
 
     <title><?= get_the_title(); ?> | <?= bloginfo('description'); ?></title>
     <?php wp_head(); ?>
