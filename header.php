@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="google-site-verification" content="WvISFB-5u1FfY5FDDf_XfpIEqoOIdty7fdo6W3cG4cI" />
+    <meta name="msvalidate.01" content="607E5D1AAB1CB1C55A1863475A670E13" />
 
     <title><?= get_the_title(); ?> | <?= bloginfo('description'); ?></title>
     <?php wp_head(); ?>
