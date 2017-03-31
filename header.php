@@ -6,8 +6,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
     <meta name="google-site-verification" content="WvISFB-5u1FfY5FDDf_XfpIEqoOIdty7fdo6W3cG4cI" />
     <meta name="msvalidate.01" content="607E5D1AAB1CB1C55A1863475A670E13" />
 
