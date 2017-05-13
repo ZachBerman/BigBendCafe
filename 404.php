@@ -1,13 +1,4 @@
-<?php
-/**
- * The template for displaying 404 pages (not found)
- *
- * @package WordPress
- * @subpackage Twenty_Fifteen
- * @since Twenty Fifteen 1.0
- */
-
-get_header(); ?>
+<?php get_header(); ?>
 
     <style type = "text/css">
         <?php if(has_post_thumbnail()): ?>

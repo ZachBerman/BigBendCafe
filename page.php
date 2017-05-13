@@ -3,7 +3,7 @@
     <style type = "text/css">
         <?php if(has_post_thumbnail()): ?>
             #menubg{
-                background: url('<?= the_post_thumbnail_url(); ?>') no-repeat center center scroll;
+                background: url('<?= the_post_thumbnail_url(); ?>');
             }
         <?php endif; ?>  
     </style>
