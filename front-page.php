@@ -139,17 +139,17 @@ Template Name: Home Page
                         "img-responsive center-block" src=
                         "<?= get_template_directory_uri(); ?>/img/border.svg" /> </p>
               <div class="col-lg-4">
-              <p class="text-uppercase mrgn20-btm contact-address hours-border"><strong>Hours</strong><br>
-              <br>
-              7:30am - 2:00pm <br>
-              - Daily -<br>
-              </p>
-              </div>
-              <div class="col-lg-4">
                 <p class="text-uppercase mrgn20-btm contact-address">528 9th Ave North<br>
                   Golden, BC V0A 1H0<br>
                   <a href="tel:1-250-344-6111" class="tel"><u>(250) 344-6111</u></a><br>
                   <a href="mailto:Roddy.macisaac@gmail.com"><u>E-mail us</u></a></p>
+              </div>
+              <div class="col-lg-4">
+                <p class="text-uppercase mrgn20-btm contact-address hours-border"><strong>Hours</strong><br>
+                <br>
+                7:30am - 2:00pm <br>
+                - Daily -<br>
+                </p>
               </div>
               <div class="col-lg-4">
                 <p class="text-uppercase mrgn20-btm contact-address">204 MacKenzie Ave<br>
@@ -177,13 +177,13 @@ Template Name: Home Page
                     return;
                   }
 
-                  var map, marker1, marker2;
+                  var map, marker1, marker2; 
 
                   map = new google.maps.Map( document.getElementById( 'map-canvas' ), {
 
                     zoom:           9,    
                     scrollwheel:    false,
-                    center:         new google.maps.LatLng( 51.11076477, -117.51965342 ),
+                    center:         new google.maps.LatLng( 51.21076477, -117.51965342 ),
 
                   });
 
