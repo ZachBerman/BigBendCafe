@@ -139,7 +139,7 @@ Template Name: Home Page
                         "img-responsive center-block" src=
                         "<?= get_template_directory_uri(); ?>/img/border.svg" /> </p>
               <div class="col-lg-4">
-              <p class="text-uppercase mrgn20-btm contact-address"><strong>Hours</strong><br>
+              <p class="text-uppercase mrgn20-btm contact-address hours-border"><strong>Hours</strong><br>
               <br>
               7:30am - 2:00pm <br>
               - Daily -<br>
@@ -177,20 +177,27 @@ Template Name: Home Page
                     return;
                   }
 
-                  var map, marker;
+                  var map, marker1, marker2;
 
                   map = new google.maps.Map( document.getElementById( 'map-canvas' ), {
 
-                    zoom:           17,
+                    zoom:           9,    
                     scrollwheel:    false,
-                    center:         new google.maps.LatLng( 51.301430, -116.967340 ),
+                    center:         new google.maps.LatLng( 51.11076477, -117.51965342 ),
 
                   });
 
                   // Marker
-                  marker = new google.maps.Marker({  
+                  marker1 = new google.maps.Marker({  
 
                     position: new google.maps.LatLng( 51.301430, -116.967340),
+                    map:      map
+
+                  });
+
+                  marker2 = new google.maps.Marker({
+
+                    position: new google.maps.LatLng( 50.998535, -118.195491),
                     map:      map
 
                   });

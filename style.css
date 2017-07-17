@@ -280,6 +280,8 @@ section#contact .form-control:focus {border-color: #eec32f;box-shadow: none;}
  section#contact:-ms-input-placeholder {text-transform: uppercase;font-weight: 700; color: #bbb;}
 section#contact .text-danger {color: #e74c3c;}
 section#contact p.contact-address{font-family: 'Short Stack', cursive;font-size:20px;}
+.hours-border {    border: 3px solid #68522d;border-radius: 3px;color: #fff;background-color: #68522d;}
+
 
 #iframe{ padding:0 !important; margin:30px 0}
 #iframe iframe{padding:0;border:0;pointer-events: none}
