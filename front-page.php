@@ -28,9 +28,8 @@ Template Name: Home Page
         <!-- Intro Section: Logo, Heading & Address -->
         
         <div class="intro-text">
-          <div class="">
             <div class="intro-lead-in">
-            <h1 class="intro-title"><?php bloginfo( 'name' ); ?></h1>
+              <h1 class="intro-title"><?php bloginfo( 'name' ); ?></h1>
             </div>
                       <p><img alt="Contact Us" class=
                         "img-responsive center-block hidden-xs animated zoomIn" src=
@@ -40,10 +39,16 @@ Template Name: Home Page
                         "<?= get_template_directory_uri(); ?>/img/bits/fork-knife-mobileindex.svg"> </p>
 
             <div class="intro-heading"><?php bloginfo( 'description' ); ?></div>
-          </div>
-          <p class="address">528 9th Ave North<br>
-            Golden, BC V0A 1H0<br>
-            <a href="tel:1-250-344-6111" class="tel header-a"><u>(250) 344-6111</u></a></p>
+            <div class="col-sm-6 addys">
+            <p class="address">528 9th Ave North<br>
+              Golden, BC V0A 1H0<br>
+              <a href="tel:1-250-344-6111" class="tel header-a"><u>(250) 344-6111</u></a></p>
+            </div>
+            <div class="col-sm-6">
+            <p class="address">204 MacKenzie Ave<br>
+              Revelstoke, BC V0E 2S0<br>
+              <a href="tel:1-250-837-5690" class="tel header-a"><u>(250) 837-5690</u></a></p>
+            </div>
         </div>
         <!-- /.Intro Section: Logo, Heading & Address --> 
       </div>
@@ -133,17 +138,23 @@ Template Name: Home Page
               <p><img alt="Contact Us" class=
                         "img-responsive center-block" src=
                         "<?= get_template_directory_uri(); ?>/img/border.svg" /> </p>
-              <div class="col-lg-6">
+              <div class="col-lg-4">
               <p class="text-uppercase mrgn20-btm contact-address"><strong>Hours</strong><br>
+              <br>
               7:30am - 2:00pm <br>
               - Daily -<br>
-                Mountain Standard Time!<br>
               </p>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-4">
                 <p class="text-uppercase mrgn20-btm contact-address">528 9th Ave North<br>
                   Golden, BC V0A 1H0<br>
                   <a href="tel:1-250-344-6111" class="tel"><u>(250) 344-6111</u></a><br>
+                  <a href="mailto:Roddy.macisaac@gmail.com"><u>E-mail us</u></a></p>
+              </div>
+              <div class="col-lg-4">
+                <p class="text-uppercase mrgn20-btm contact-address">204 MacKenzie Ave<br>
+                  Revelstoke, BC V0E 2S0<br>
+                  <a href="tel:1-250-837-5690" class="tel"><u>(250) 837-5690</u></a><br>
                   <a href="mailto:Roddy.macisaac@gmail.com"><u>E-mail us</u></a></p>
               </div>
             </div>
