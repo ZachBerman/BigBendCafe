@@ -181,7 +181,7 @@ Template Name: Home Page
 
                   map = new google.maps.Map( document.getElementById( 'map-canvas' ), {
 
-                    zoom:           9,    
+                    zoom:           10,    
                     scrollwheel:    false,
                     center:         new google.maps.LatLng( 51.21076477, -117.51965342 ),
 
