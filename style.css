@@ -56,7 +56,7 @@ h2, h3, h4, h5, h6 {text-transform: uppercase;font-family: 'Short Stack', cursiv
 
 .btn {border-radius: 0;}
 
-.btn-primary{text-transform:uppercase;font-family: 'Short Stack', cursive;color:#68522d;background-color:#fff;border-color:#68522d;}
+.btn-primary{text-transform:uppercase;font-family: 'Short Stack', cursive;color:#68522d;background-color:transparent;border-color:#68522d;}
 .btn-primary:focus,.btn-primary.focus{color:#fff;background-color:#68522d;border-color:#68522d}
 .btn-primary:hover{color:#fff;background-color:#68522d;border-color:#68522d;}
 .btn-primary:active,.btn-primary.active,.open > .dropdown-toggle.btn-primary{color:#fff;background-color:#68522d;border-color:#68522d;}
