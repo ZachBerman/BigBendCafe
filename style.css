@@ -248,7 +248,7 @@ section#testimonials .owl-controls .owl-next {right: 0px;}
 /* Section Book A Table
 ================================ */
 
-#instagram{margin-top: -20px;}
+#instagram{margin-top: -20px;background: #f9f9f9;}
 #cta{}
 @media(max-width:767px) {
 #bookatable{text-align:center}}
@@ -263,7 +263,7 @@ section#cta-boxes {padding: 50px 0;}
 /* Section Contact 
 ================================ */
 
-section#contact {background-color: #f9f9f9;background-position: center;background-repeat: no-repeat;}
+section#contact {background-color: #fff;background-position: center;background-repeat: no-repeat;}
 section#contact .section-heading {color: #434343;}
 section#contact h4 {font-family: 'Amatic SC', cursive;font-size: 48px;}
 section#contact .form-group {margin-bottom: 20px;}
