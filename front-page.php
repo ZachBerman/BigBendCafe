@@ -139,8 +139,8 @@ Template Name: Home Page
                         "img-responsive center-block" src=
                         "<?= get_template_directory_uri(); ?>/img/border.svg" /> </p>
               <div class="col-lg-4 col-lg-offset-1">
-                <p class="hours-border text-uppercase contact-address">Golden<br>
-                Open 7:30am-2pm<br></p>
+                <p class="hours-border text-uppercase contact-address">Golden<br><br>
+                7:30am - 2:00pm<br></p>
                 <p class="text-uppercase mrgn20-btm contact-address">
                 528 9th Ave North<br>
                   Golden, BC V0A 1H0<br>
@@ -149,7 +149,7 @@ Template Name: Home Page
               </div>
               <div class="col-lg-offset-2 col-lg-4">
               <p class="hours-border text-uppercase contact-address">Revelstoke<br>
-                Open 7:30am-2:30pm<br></p>
+                7:30am - 2:30pm<br>4:00pm - close</p>
                 <p class="text-uppercase mrgn20-btm contact-address">204 MacKenzie Ave<br>
                   Revelstoke, BC V0E 2S0<br>
                   <a href="tel:1-250-837-5690" class="tel"><u>(250) 837-5690</u></a><br>
